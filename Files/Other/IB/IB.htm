@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=Windows-1252">
+<META name="Author" content="Produced using smartkurs 2.0">
+<META name="generator" content="smartkurs 2.0">
+<META name="keywords" content="quiz">
+<META name="description" content="Elementary IB">
+<TITLE>smartkurs</TITLE>
+<LINK href="css/IB.css" rel="stylesheet" type="text/css">
+<link href="css/base.css" rel="stylesheet"/>
+<SCRIPT LANGUAGE='JavaScript' SRC='./IB.js'></SCRIPT>
+<link href="css/modalDlg.css" rel="stylesheet"/>
+
+<script language="javascript" type="text/javascript">
+ document.addEventListener("contextmenu", function(e){ e.preventDefault();}, false);
+
+function startQuiz() {
+  var status;
+
+  Constructor();
+  window.focus();
+  UnmanageAllDialogs();
+  init_valid();
+  AskMeName();
+  startFloatLayer();
+  oldtime=StartTime();
+  Timer();
+  if (GetNRepeat()==0) initShortQuestion();
+  end_test=0;
+}
+
+function ManageLoadPage()
+{
+startQuiz();
+}
+</script>
+</HEAD>
+<BODY OnLoad="ManageLoadPage()" >
+<div style="width:100%; margin:0 auto;">
+<script language="javascript" type="text/javascript">
+  keyword = "cJ4djq7O";
+</script>
+  <form class="hidden_style"><input type="hidden" id="hidden_url" value="css/IB.css"></form>
+<CENTER>
+<SPAN class='quiz_title_class'>Elementary IB</SPAN><BR>
+<BR>
+<SPAN class='quiz_profile_class'>2020</SPAN><BR>
+</CENTER>
+<HR class='horizontal-bar'>
+<FORM NAME='domanda'>
+
+<TABLE id='FloatingStatusbarPanel' width='95%' style='position:absolute; left:100px; top:-100px; z-index:2;'>
+<TR>
+<TD ALIGN='left' ID='clock' CLASS='floating_statusbar_class'>00:30:00</TD>
+<TD ALIGN='center' CLASS='floating_statusbar_class'>
+to be answered :<SPAN ID='nToDo'>6</SPAN>
+</TD></TR></TABLE>
+
+<script language="javascript" type="text/javascript">
+function initValuate1()
+{
+ this.length = 6;
+ var choice,valuation,data,remark;
+ choice = document.domanda.gap001000.value;
+ valuation = new init_array(2);
+ valuation.length = 2;
+ valuation[0] = unescape(DecodeString("m5Ym05oOq90="));
+ valuation[1] = unescape(DecodeString("rFCRHNj5hd0="));
+ data = unescape("<span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;%22>Affirmative</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;%22>I%27m</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;%22>he, she , it%27");
+ this[0] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap001001.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("rFCRHNj5hd0="));
+ data = unescape("</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;%22>you, we, they are</span></p>    <p>&nbsp;</p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;%22>Interrogative</span></p>    <p>&nbsp;</p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;%22>am i?</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;%22>");
+ this[1] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap001002.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("cB4Lfg9Xuuo="));
+ data = unescape("he,she,it?</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;%22>");
+ this[2] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap001003.value;
+ valuation = new init_array(2);
+ valuation.length = 2;
+ valuation[0] = unescape(DecodeString("FV1ycg0Xr8w="));
+ valuation[1] = unescape(DecodeString("9hmhG6afRNo="));
+ data = unescape("you,we,they?</span></p>    <p>&nbsp;</p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;%22>Negative</span></p>    <p>&nbsp;</p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;%22>I%27m not</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;%22>he,she,it isn%27t</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;%22>you,we,they");
+ this[3] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap001004.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("rFCRHNj5hd0="));
+ data = unescape("</span></p>    <p>&nbsp;</p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;%22>Short answers</span></p>    <p>&nbsp;</p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;%22>Yes, I am, No, I%27m not</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;%22>Yes he,she,it");
+ this[4] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap001005.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("cB4Lfg9Xuuo="));
+ data = unescape("</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;%22>No,he,she, it isn%27t</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;%22>Yes,you,we,they");
+ this[5] = new AnsReport(choice,valuation,data,0);
+ pesi[0]=DecodeNumber('hUrjTffviqA=',60,0,99999);
+
+}
+
+</script>
+<IMG SRC="media/check.png" CLASS='checkHide' ID='check0' ALIGN='LEFT' HSPACE='5'>
+<A NAME='qstAnchor0'>
+</A>
+<DIV class='quiz_quest_header_class'> Question 1  </DIV>
+
+<DIV ID='hideAns0' CLASS='cardHide'>
+<TABLE class="qst_feedback_table_class"><TR class="qst_feedback_TH_class"><TD CLASS="qst_feedback_TD_class">
+<SPAN ID='hideTxt0'></SPAN>
+</TD></TR></TABLE>
+</DIV>
+<BR />
+<TABLE WIDTH="100%">
+<TR><TD class="quiz_quest_class">
+<b><span style="background-color:#FFFFFF;font-family:Times New Roman;font-size:15pt;">2</span></b></p>    <p><b><span style="background-color:#FFFFFF;font-family:Times New Roman;font-size:15pt;">Complete the box. Use short forms</span></b></p>    <p>&nbsp;</p>    <p>&nbsp;</p>    <p><b><span style="background-color:#80FF80;font-family:Times New Roman;font-size:15pt;">example</span></b></p>    <p><b><span style="background-color:#80FF80;font-family:Times New Roman;font-size:15pt;"> i 'm</span></b></TD></TR></TABLE>
+<BR />
+<TABLE WIDTH='100%'>
+<TR><TD ALIGN='LEFT' class='quiz_answer_class' style='padding:5px'>
+<span style="background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;">Affirmative</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;">I'm</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;">he, she , it' <INPUT TYPE='text' NAME='gap001000' SIZE=8 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;' class='quiz_answer_class'> </span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;">you, we, they are</span></p>    <p>&nbsp;</p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;">Interrogative</span></p>    <p>&nbsp;</p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;">am i?</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;"> <INPUT TYPE='text' NAME='gap001001' SIZE=8 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;' class='quiz_answer_class'> he,she,it?</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;"> <INPUT TYPE='text' NAME='gap001002' SIZE=8 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;' class='quiz_answer_class'> you,we,they?</span></p>    <p>&nbsp;</p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;">Negative</span></p>    <p>&nbsp;</p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;">I'm not</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;">he,she,it isn't</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;">you,we,they <INPUT TYPE='text' NAME='gap001003' SIZE=8 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;' class='quiz_answer_class'> </span></p>    <p>&nbsp;</p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;">Short answers</span></p>    <p>&nbsp;</p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;">Yes, I am, No, I'm not</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;">Yes he,she,it <INPUT TYPE='text' NAME='gap001004' SIZE=8 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;' class='quiz_answer_class'> </span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;">No,he,she, it isn't</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;">Yes,you,we,they <INPUT TYPE='text' NAME='gap001005' SIZE=8 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;' class='quiz_answer_class'> </span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:12pt;">No,you,we,they aren't</span></p>    <p></TD></TR></TABLE>
+<HR class='horizontal-bar'>
+<script language="javascript" type="text/javascript">
+function initValuate2()
+{
+ this.length = 10;
+ var choice,valuation,data,remark;
+ choice = document.domanda.gap002000.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("M3j4cIZ86R9imwvf4Chkbjr1kvPIrMK5"));
+ data = unescape("<span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;%22>2 My teacher... very tall</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;%22>");
+ this[0] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap002001.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("/9uzVykiK5GhPjtpXdDOfqn85rvpYIP2H1vRrA=="));
+ data = unescape(",");
+ this[1] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap002002.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("9PhX68/saHgcIxVjpNEbA29p6R8="));
+ data = unescape("</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;%22>3 I... 16 years old</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;%22>");
+ this[2] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap002003.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("ThG11haEe5oaw0q4RJu/+MXc2MKtHeqx"));
+ data = unescape(",");
+ this[3] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap002004.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("b+cb4e5O/Uu2+buxa1rZV7mWiFksuUr6"));
+ data = unescape("</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;%22>4 My friends...all girls</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;%22>");
+ this[4] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap002005.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("jXJ7UNvt3xLU8BftsCuI0Q6KudZKxC8DFQ7xyuOqfU8="));
+ data = unescape(",");
+ this[5] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap002006.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("v/g88aljsl/lXJbiz8DWcdy7myCv/Gqb"));
+ data = unescape("</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;%22>5 It... very cold today</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;%22>");
+ this[6] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap002007.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("4WeW88OINc+xCZGfWl788GHFugyWaY+rFskG8g=="));
+ data = unescape(",");
+ this[7] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap002008.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("vb/qctFgzlgKAHt5By5GifavGjKTjTWDcAufHlBgWiRLEHevjKQe0zrMmfc="));
+ data = unescape("</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;%22>6 My friends and i...in an English lesson</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;%22>");
+ this[8] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap002009.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("tjUqBabZvi1W7H0QWk8U3d/ciB69BOw1975n8onOSt60BGeLHtm+/QEL0ENGpu/s"));
+ data = unescape(",");
+ this[9] = new AnsReport(choice,valuation,data,0);
+ pesi[1]=DecodeNumber('19BCz07C/oI=',82,0,99999);
+
+}
+
+</script>
+<IMG SRC="media/check.png" CLASS='checkHide' ID='check1' ALIGN='LEFT' HSPACE='5'>
+<A NAME='qstAnchor1'>
+</A>
+<DIV class='quiz_quest_header_class'> Question 2  </DIV>
+
+<DIV ID='hideAns1' CLASS='cardHide'>
+<TABLE class="qst_feedback_table_class"><TR class="qst_feedback_TH_class"><TD CLASS="qst_feedback_TD_class">
+<SPAN ID='hideTxt1'></SPAN>
+</TD></TR></TABLE>
+</DIV>
+<BR />
+<TABLE WIDTH="100%">
+<TR><TD class="quiz_quest_class">
+<span style="background-color:#FFFFFF;font-family:Verdana;font-size:14pt;">3</span></p>    <p>&nbsp;</p>    <p><span style="background-color:#FFFFFF;font-family:Verdana;font-size:14pt;">Write two sentences with the verb be, one affirmative and</span></p>    <p><span style="background-color:#FFFFFF;font-family:Verdana;font-size:14pt;">one negative.</span></p>    <p>&nbsp;</p>    <p><span style="background-color:#80FF80;font-family:Verdana;font-size:14pt;">example</span></p>    <p>&nbsp;</p>    <p><span style="background-color:#80FF80;font-family:Verdana;font-size:14pt;">1 we...at school</span></p>    <p><span style="background-color:#80FF80;font-family:Verdana;font-size:14pt;"> We are at school, We aren't at school</span></p>    <p></TD></TR></TABLE>
+<BR />
+<TABLE WIDTH='100%'>
+<TR><TD ALIGN='LEFT' class='quiz_answer_class' style='padding:5px'>
+<span style="background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;">2 My teacher... very tall</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;"> <INPUT TYPE='text' NAME='gap002000' SIZE=23 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;' class='quiz_answer_class'> , <INPUT TYPE='text' NAME='gap002001' SIZE=26 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;' class='quiz_answer_class'> </span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;">3 I... 16 years old</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;"> <INPUT TYPE='text' NAME='gap002002' SIZE=16 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;' class='quiz_answer_class'> , <INPUT TYPE='text' NAME='gap002003' SIZE=20 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;' class='quiz_answer_class'> </span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;">4 My friends...all girls</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;"> <INPUT TYPE='text' NAME='gap002004' SIZE=24 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;' class='quiz_answer_class'> , <INPUT TYPE='text' NAME='gap002005' SIZE=27 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;' class='quiz_answer_class'> </span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;">5 It... very cold today</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;"> <INPUT TYPE='text' NAME='gap002006' SIZE=20 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;' class='quiz_answer_class'> , <INPUT TYPE='text' NAME='gap002007' SIZE=24 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;' class='quiz_answer_class'> </span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;">6 My friends and i...in an English lesson</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;"> <INPUT TYPE='text' NAME='gap002008' SIZE=41 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;' class='quiz_answer_class'> , <INPUT TYPE='text' NAME='gap002009' SIZE=43 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;' class='quiz_answer_class'> </span></TD></TR></TABLE>
+<HR class='horizontal-bar'>
+<script language="javascript" type="text/javascript">
+function initValuate3()
+{
+ this.length = 6;
+ var choice,valuation,data,remark;
+ choice = document.domanda.gap003000.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("TJ8SUEHqwcE="));
+ data = unescape("<span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>1");
+ this[0] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap003001.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("3AfqNuEoy1A="));
+ data = unescape("you hungry?</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>2");
+ this[1] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap003002.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("TJ8SUEHqwcE="));
+ data = unescape("our teacher male?</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>3");
+ this[2] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap003003.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("TJ8SUEHqwcE="));
+ data = unescape("we at school?</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>4");
+ this[3] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap003004.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("TJ8SUEHqwcE="));
+ data = unescape("your friends all at this school?</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>5");
+ this[4] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap003005.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("YjUbQdLbRFw="));
+ data = unescape("you eighteen years old?</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>6");
+ this[5] = new AnsReport(choice,valuation,data,0);
+ pesi[2]=DecodeNumber('gQQ8cpLdWRg=',103,0,99999);
+
+}
+
+</script>
+<IMG SRC="media/check.png" CLASS='checkHide' ID='check2' ALIGN='LEFT' HSPACE='5'>
+<A NAME='qstAnchor2'>
+</A>
+<DIV class='quiz_quest_header_class'> Question 3  </DIV>
+
+<DIV ID='hideAns2' CLASS='cardHide'>
+<TABLE class="qst_feedback_table_class"><TR class="qst_feedback_TH_class"><TD CLASS="qst_feedback_TD_class">
+<SPAN ID='hideTxt2'></SPAN>
+</TD></TR></TABLE>
+</DIV>
+<BR />
+<TABLE WIDTH="100%">
+<TR><TD class="quiz_quest_class">
+<span style="background-color:#FFFFFF;font-family:Verdana;font-size:16pt;">4</span></p>    <p><span style="background-color:#FFFFFF;font-family:Verdana;font-size:16pt;">Complete the questions with the correct form</span></p>    <p><span style="background-color:#FFFFFF;font-family:Verdana;font-size:16pt;">of the verb be.</span></TD></TR></TABLE>
+<BR />
+<TABLE WIDTH='100%'>
+<TR><TD ALIGN='LEFT' class='quiz_answer_class' style='padding:5px'>
+<span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">1 <INPUT TYPE='text' NAME='gap003000' SIZE=8 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;' class='quiz_answer_class'> you hungry?</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">2 <INPUT TYPE='text' NAME='gap003001' SIZE=8 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;' class='quiz_answer_class'> our teacher male?</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">3 <INPUT TYPE='text' NAME='gap003002' SIZE=8 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;' class='quiz_answer_class'> we at school?</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">4 <INPUT TYPE='text' NAME='gap003003' SIZE=8 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;' class='quiz_answer_class'> your friends all at this school?</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">5 <INPUT TYPE='text' NAME='gap003004' SIZE=8 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;' class='quiz_answer_class'> you eighteen years old?</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">6 <INPUT TYPE='text' NAME='gap003005' SIZE=8 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;' class='quiz_answer_class'> i from the UK?</span></p>    <p></TD></TR></TABLE>
+<HR class='horizontal-bar'>
+<script language="javascript" type="text/javascript">
+function initValuate4()
+{
+ this.length = 5;
+ var choice,valuation,data,remark;
+ choice = document.domanda.gap004000.value;
+ valuation = new init_array(2);
+ valuation.length = 2;
+ valuation[0] = unescape(DecodeString("MJF/hNegusU="));
+ valuation[1] = unescape(DecodeString("rFMuvAVOYAg="));
+ data = unescape("<span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>Affirmative</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>I,you,we,they");
+ this[0] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap004001.value;
+ valuation = new init_array(2);
+ valuation.length = 2;
+ valuation[0] = unescape(DecodeString("ktk8sfQb9VI="));
+ valuation[1] = unescape(DecodeString("f37OLFfg864="));
+ data = unescape("got</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>he,she,it");
+ this[1] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap004002.value;
+ valuation = new init_array(2);
+ valuation.length = 2;
+ valuation[0] = unescape(DecodeString("XKvpJG9+u/0="));
+ valuation[1] = unescape(DecodeString("RngKz0+L9YY="));
+ data = unescape("got</span></p>    <p>&nbsp;</p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>Negative</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>I,you,we,they haven%27t got</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>he,she,it");
+ this[2] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap004003.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("HzrifPErGAE="));
+ data = unescape("got</span></p>    <p>&nbsp;</p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>Interrogative</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>");
+ this[3] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap004004.value;
+ valuation = new init_array(2);
+ valuation.length = 2;
+ valuation[0] = unescape(DecodeString("j0/EogYdWNEQkV2v"));
+ valuation[1] = unescape(DecodeString("X1UAh6q1n7o="));
+ data = unescape("I,you,we, they got?</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>Has he, she, it got</span></p>    <p>&nbsp;</p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>Short answers</span></p>    <p>&nbsp;</p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>Yes, i have. No, i");
+ this[4] = new AnsReport(choice,valuation,data,0);
+ pesi[3]=DecodeNumber('saZUahYdbRI=',124,0,99999);
+
+}
+
+</script>
+<IMG SRC="media/check.png" CLASS='checkHide' ID='check3' ALIGN='LEFT' HSPACE='5'>
+<A NAME='qstAnchor3'>
+</A>
+<DIV class='quiz_quest_header_class'> Question 4  </DIV>
+
+<DIV ID='hideAns3' CLASS='cardHide'>
+<TABLE class="qst_feedback_table_class"><TR class="qst_feedback_TH_class"><TD CLASS="qst_feedback_TD_class">
+<SPAN ID='hideTxt3'></SPAN>
+</TD></TR></TABLE>
+</DIV>
+<BR />
+<TABLE WIDTH="100%">
+<TR><TD class="quiz_quest_class">
+<span style="background-color:#FFFFFF;font-family:Verdana;font-size:11pt;">5</span></p>    <p>&nbsp;</p>    <p><span style="background-color:#FFFFFF;font-family:Verdana;font-size:11pt;">Complete the </span><span style="background-color:#FFFFFF;font-family:MS-Gothic;font-size:11pt;">box. </span><span style="background-color:#FFFFFF;font-family:Verdana;font-size:11pt;">Use short forms. </span><span style="font-family:TrebuchetMS;font-size:11pt;"> </span><span style="font-family:Verdana;font-size:11pt;">What are the long forms?</span></p>    <p>&nbsp;</p>    <p><span style="background-color:#FF80FF;font-family:Verdana;font-size:11pt;">Have got</span></TD></TR></TABLE>
+<BR />
+<TABLE WIDTH='100%'>
+<TR><TD ALIGN='LEFT' class='quiz_answer_class' style='padding:5px'>
+<span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">Affirmative</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">I,you,we,they <INPUT TYPE='text' NAME='gap004000' SIZE=8 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;' class='quiz_answer_class'> got</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">he,she,it <INPUT TYPE='text' NAME='gap004001' SIZE=8 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;' class='quiz_answer_class'> got</span></p>    <p>&nbsp;</p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">Negative</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">I,you,we,they haven't got</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">he,she,it <INPUT TYPE='text' NAME='gap004002' SIZE=8 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;' class='quiz_answer_class'> got</span></p>    <p>&nbsp;</p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">Interrogative</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;"> <INPUT TYPE='text' NAME='gap004003' SIZE=8 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;' class='quiz_answer_class'> I,you,we, they got?</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">Has he, she, it got</span></p>    <p>&nbsp;</p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">Short answers</span></p>    <p>&nbsp;</p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">Yes, i have. No, i <INPUT TYPE='text' NAME='gap004004' SIZE=8 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;' class='quiz_answer_class'> </span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">Yes, he, she, it has.No, he she, it hasn't</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">Yes, you,we,they have, No, you,we,they haven't</span></TD></TR></TABLE>
+<HR class='horizontal-bar'>
+<script language="javascript" type="text/javascript">
+function initValuate5()
+{
+ this.length = 5;
+ var choice,valuation,data,remark;
+ choice = document.domanda.gap005000.value;
+ valuation = new init_array(2);
+ valuation.length = 2;
+ valuation[0] = unescape(DecodeString("mkn2ScsSCSc="));
+ valuation[1] = unescape(DecodeString("HMPLyGFBObAAqQbmP/U/tg=="));
+ data = unescape("<span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;%22>1 I");
+ this[0] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap005001.value;
+ valuation = new init_array(2);
+ valuation.length = 2;
+ valuation[0] = unescape(DecodeString("mkn2ScsSCSc="));
+ valuation[1] = unescape(DecodeString("HMPLyGFBObAAqQbmP/U/tg=="));
+ data = unescape("two brothers</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;%22>2 We");
+ this[1] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap005002.value;
+ valuation = new init_array(2);
+ valuation.length = 2;
+ valuation[0] = unescape(DecodeString("XYbxbOjVrbE="));
+ valuation[1] = unescape(DecodeString("o9UfypY4opLA8uNLs8jlHg=="));
+ data = unescape("a maths lesson next</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;%22>3 Our teacher");
+ this[2] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap005003.value;
+ valuation = new init_array(2);
+ valuation.length = 2;
+ valuation[0] = unescape(DecodeString("mkn2ScsSCSc="));
+ valuation[1] = unescape(DecodeString("+qZbcqNsmn8QR86l4gckDA=="));
+ data = unescape("short hair</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;%22>3 I");
+ this[3] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap005004.value;
+ valuation = new init_array(2);
+ valuation.length = 2;
+ valuation[0] = unescape(DecodeString("XYbxbOjVrbE="));
+ valuation[1] = unescape(DecodeString("o9UfypY4opLA8uNLs8jlHg=="));
+ data = unescape("blue eyes</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;%22>5 Our teachers");
+ this[4] = new AnsReport(choice,valuation,data,0);
+ pesi[4]=DecodeNumber('El83VqoIP5s=',145,0,99999);
+
+}
+
+</script>
+<IMG SRC="media/check.png" CLASS='checkHide' ID='check4' ALIGN='LEFT' HSPACE='5'>
+<A NAME='qstAnchor4'>
+</A>
+<DIV class='quiz_quest_header_class'> Question 5  </DIV>
+
+<DIV ID='hideAns4' CLASS='cardHide'>
+<TABLE class="qst_feedback_table_class"><TR class="qst_feedback_TH_class"><TD CLASS="qst_feedback_TD_class">
+<SPAN ID='hideTxt4'></SPAN>
+</TD></TR></TABLE>
+</DIV>
+<BR />
+<TABLE WIDTH="100%">
+<TR><TD class="quiz_quest_class">
+<span style="background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:13pt;">6</span></p>    <p><span style="font-family:Verdana;font-size:11pt;">Complete the sentences with the correct </span><span style="font-family:TrebuchetMS;font-size:11pt;">form </span><span style="font-family:Verdana;font-size:11pt;">of have got,</span></p>    <p><span style="font-family:Verdana;font-size:11pt;">affirmative or negative. Make them true for </span><span style="font-family:TrebuchetMS;font-size:11pt;">you.</span></TD></TR></TABLE>
+<BR />
+<TABLE WIDTH='100%'>
+<TR><TD ALIGN='LEFT' class='quiz_answer_class' style='padding:5px'>
+<span style="background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;">1 I <INPUT TYPE='text' NAME='gap005000' SIZE=11 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;' class='quiz_answer_class'> two brothers</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;">2 We <INPUT TYPE='text' NAME='gap005001' SIZE=11 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;' class='quiz_answer_class'> a maths lesson next</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;">3 Our teacher <INPUT TYPE='text' NAME='gap005002' SIZE=11 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;' class='quiz_answer_class'> short hair</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;">3 I <INPUT TYPE='text' NAME='gap005003' SIZE=12 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;' class='quiz_answer_class'> blue eyes</span></p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;">5 Our teachers <INPUT TYPE='text' NAME='gap005004' SIZE=11 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:16pt;' class='quiz_answer_class'> a big teacher's room</span></TD></TR></TABLE>
+<HR class='horizontal-bar'>
+<script language="javascript" type="text/javascript">
+function initValuate6()
+{
+ this.length = 2;
+ var choice,valuation,data,remark;
+ choice = getTextSelected(document.domanda.gap006000);
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("Za+qRkRHakNEeu65Eh92nhRV80PnQGnWzInTikKgr2BVBVG4xT/Vcg=="));
+ data = unescape("<span style=%22background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;%22>Joe");
+ this[0] = new AnsReport(choice,valuation,data,0);
+ choice = getTextSelected(document.domanda.gap006001);
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("6Ic+/cCyDHfqr5miAO2cld566zdNnBEZ"));
+ data = unescape("</span></p>    <p><span style=%22background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;%22>Amy");
+ this[1] = new AnsReport(choice,valuation,data,0);
+ pesi[5]=DecodeNumber('DItlKmhLQvg=',166,0,99999);
+
+}
+
+</script>
+<IMG SRC="media/check.png" CLASS='checkHide' ID='check5' ALIGN='LEFT' HSPACE='5'>
+<A NAME='qstAnchor5'>
+</A>
+<DIV class='quiz_quest_header_class'> Question 6  </DIV>
+
+<DIV ID='hideAns5' CLASS='cardHide'>
+<TABLE class="qst_feedback_table_class"><TR class="qst_feedback_TH_class"><TD CLASS="qst_feedback_TD_class">
+<SPAN ID='hideTxt5'></SPAN>
+</TD></TR></TABLE>
+</DIV>
+<BR />
+<TABLE WIDTH="100%">
+<TR><TD class="quiz_quest_class">
+<b><span style="background-color:#FFFFFF;font-family:Times New Roman;font-size:16pt;">7</span></b></p>    <p>&nbsp;</p>    <p><b><span style="background-color:#FFFFFF;font-family:Times New Roman;font-size:16pt;">Listen. Choose the things that Joe an Amy have got</span></b></p>    <p></TD></TR></TABLE>
+<BR />
+<TABLE WIDTH='100%'>
+<TR><TD ALIGN='LEFT' class='quiz_answer_class' style='padding:5px'>
+<span style="background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Joe <SELECT NAME='gap006000' STYLE='background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;' class='quiz_answer_class'>  <OPTION value='' SELECTED> --------------------------------------- </OPTION>
+ <OPTION value="a pet a skateboard a smartphone a watch">a pet a skateboard a smartphone a watch</OPTION>
+ <OPTION value=" a bike a laptop a watch"> a bike a laptop a watch</OPTION>
+ </SELECT>
+</span></p>    <p><span style="background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Amy <SELECT NAME='gap006001' STYLE='background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;' class='quiz_answer_class'>  <OPTION value='' SELECTED> -------------------------------- </OPTION>
+ <OPTION value="a bike a laptop a watch">a bike a laptop a watch</OPTION>
+ <OPTION value=" a pet a skateboard a smartphone"> a pet a skateboard a smartphone</OPTION>
+ </SELECT>
+</span></TD></TR></TABLE>
+<HR class='horizontal-bar'>
+<BR><BR>
+<SPAN id='verifyButtonId' class='okButtonClass'><TABLE WIDTH='100%' class='quiz_table_verify'>
+<TR><TD class='quiz_table_verify_TD'><SPAN class='quiz_remark_class'></SPAN></TD>
+<TD class='quiz_table_verify_TD'>
+<INPUT TYPE='button' VALUE='ok' onClick="parent.end_test=1;parent.EndQuiz()" class="quiz_verify_box_class"></TD></TR></TABLE></SPAN>
+<HR class='horizontal-bar'>
+<BR /><BR />
+</FORM>
+</DIV>
+</BODY>
+</HTML>
